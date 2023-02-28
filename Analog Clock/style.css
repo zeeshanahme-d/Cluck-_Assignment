@@ -1,0 +1,39 @@
+#container{
+    width: 40vw;
+    height: 40vw;
+    background: url(/clock.png) no-repeat;
+    /* border: 2px solid red; */
+    background-size:100%;
+    margin: auto;
+    position: relative;
+}
+#houre{
+    position: absolute;
+    width: 2%;
+    height: 23%;
+    left: 48.8%;
+    border-radius: 40%;
+    top: 26%;
+    background: #000;
+    transform-origin: bottom;
+}
+#minet{
+    position: absolute;
+    width: 2%;
+    height: 30%;
+    left: 48.8%;
+    border-radius: 40%;
+    top: 19%;
+    background: #000;
+    transform-origin: bottom;
+}
+#seconed{
+    position: absolute;
+    width: 2%;
+    height: 40%;
+    left: 49%;
+    border-radius: 40%;
+    top: 9%;
+    background: #000;
+    transform-origin: bottom;
+}
